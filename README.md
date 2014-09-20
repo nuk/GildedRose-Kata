@@ -1,3 +1,9 @@
+Gilded Rose Kata [![Build Status](https://travis-ci.org/qw3r/GildedRose.svg)](https://travis-ci.org/qw3r/GildedRose)
+
+
+
+---
+
 If you want to get cracking on the ruby source then do this:
 
     git clone git@github.com:professor/GildedRose.git
