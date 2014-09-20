@@ -30,7 +30,10 @@ describe GildedRose do
       item.quality = 1
       item.sell_in = 0
 
-      expect { subject.update_quality }.to change(item, :quality).to(0)
+      expect {
+        subject.update_quality
+        subject.update_quality
+      }.to change(item, :quality).to(0)
     end
   end
 
@@ -77,6 +80,11 @@ describe GildedRose do
     let(:item) { Item.new 'Backstage passes to a TAFKAL80ETC concert', 15, 5 }
 
 
+    it "should decrease its 'days to sell' by 1" do
+      expect { subject.update_quality }.to change(item, :sell_in).by(-1)
+    end
+
+
     it "should increase its quality by 1 if more than 10 days left" do
       expect { subject.update_quality }.to change(item, :quality).by(1)
     end
@@ -104,10 +112,10 @@ describe GildedRose do
   end
 
 
-  context "when item is the 'Conjured Mana Cake'" do
+  xcontext "when item is the 'Conjured Mana Cake'" do
     let(:item) { Item.new 'Conjured Mana Cake', 10, 10 }
 
-    xit "should decreased its quality by 2" do
+    it "should decreased its quality by 2" do
       expect { subject.update_quality }.to change(item, :quality).by(-2)
     end
   end
