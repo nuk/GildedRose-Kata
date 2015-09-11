@@ -146,10 +146,10 @@ The head manager is happy with the results. So much so that he heard your compla
 ----
 
 This code is based on the Gilded Rose at
-  [https:github.com/qw3r/GildedRose]
+  https:github.com/qw3r/GildedRose
     based on the code at
-  [https://github.com/professor/GildedRose]
+  https://github.com/professor/GildedRose
     based on the code at
-  [https://github.com/NotMyself/GildedRose]
+  https://github.com/NotMyself/GildedRose
     referenced at
-  [https://github.com/sandromancuso/Gilded-Rose-Kata]
+  https://github.com/sandromancuso/Gilded-Rose-Kata
