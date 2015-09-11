@@ -152,3 +152,7 @@ based on the code at https://github.com/professor/GildedRose
 based on the code at https://github.com/NotMyself/GildedRose
 
 referenced at https://github.com/sandromancuso/Gilded-Rose-Kata
+
+----
+
+Send me a tweet telling me what you thought about this exercise. I love feedback =]
