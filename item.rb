@@ -8,9 +8,4 @@ class Item
     @quality = quality
   end
 
-
-  def update
-
-  end
-
 end
