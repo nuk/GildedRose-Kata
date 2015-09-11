@@ -135,13 +135,11 @@ Now lets have 10 minutes to evaluate the results?
 B-3-0
 ======
 
-The head manager is happy with the results. So much so that he heard your complaints about the code and allowed you to decide what to do next. You have 25 minutes to work on one (or several) of the following tasks:
+Ready for the next step ?
 
- - Improve the code quality, so others have less trouble working on the code than you.
- - Develop new features:
-  - The Gilded Rose is a top of class facilitie, so items with zero quality should be removed from the stock. This will help to place a re-supply order and restablish the inventory.
-  - If an item appears more the 30 times in the list for more than 10 days, its quality must be decreased in half, as a sale offer to free inventory.
+Just change to the `3-0` branch by running the following command.
 
+    $ git checkout origin/3-0
 
 ----
 
