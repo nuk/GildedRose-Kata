@@ -19,129 +19,45 @@ First you must clone the repository and make sure your environment is properly s
 B-1-0
 ======
 
-Your Task, for now is to read this code and try to understand what if wants to accomplish.
+Start here and we'll go on a coding journey toguether.
 
-Simple right? You have 5 minutes to do that. So hurry up!
+Just change to the `1-0` branch by running the following command.
+
+    $ git checkout origin/1-0
 
 ----
 
 B-1-1
 ======
 
-Let's check if you got the right idea. The following letter is a descriotion from the head manager of the Gilded Rose describing why they have this code. 
+If you finished the step 1-0 you could go here, but since I can't stop ya.
 
-*Hi and welcome to team Gilded Rose.*
+Just change to the `1-1` branch by running the following command.
 
-*As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison.  We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date.*
-
-*We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new adventures. Your task is to add the new feature to our system so that we can begin selling a new category of items.*
-
-First an introduction to our system:
-
-  - All items have a `sell_in` value which denotes the number of days we have to
-    sell the item
-
-  - All items have a `quality` value which denotes how valuable the item is
-
-  - At the end of each day our system lowers both values for every item
-
-Pretty simple, right? Well this is where it gets interesting:
-
-  - Once the sell by date has passed, `quality` degrades twice as fast
-
-  - The `quality` of an item is never negative
-
-  - "Aged Brie" actually increases in `quality` the older it gets
-
-  - The `quality` of an item is never more than 50
-
-  - "Sulfuras", being a legendary item, never has to be sold or decreases in
-    `quality`
-
-  - "Backstage passes", like aged brie, increases in `quality` as it's `sell_in`
-    value approaches; `quality` increases by 2 when there are 10 days or less
-    and by 3 when there are 5 days or less but `quality` drops to 0 after the
-    concert
-
-
-Quite simple right? Does it match what you it meant? Hope you're not disapointed by now.
-
-After this quick explanation (hope took you less than 5 minutes) it's time to assing your task. Here is the head manager again:
-
-*We have recently signed a supplier of conjured items. This requires an update to our system:*
-
-  - "Conjured" items degrade in `quality` twice as fast as normal items
-
-*Feel free to make any changes to the `update_quality` method and add any new code as long as everything still works correctly. However, do not alter the `Item` class or `items` property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the `update_quality` method and `items` property static if you like, we'll cover for you).*
-
-*Just for clarification, an item can never have its quality increase above 50, however "Sulfuras" is a legendary item and as such its quality is 80 and it never alters.*
-
-[Source](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/)
-
-
-Now yout have 15 minutes to achieve your goal. 
-
-----
-
-Have you finished?
-
-Lets take five minutes to ask ourselves some questions.
-
- - Is it ready ?
-  - Have you finished your task ?
-  - How confident are you to deploy it ?
-  - Will the new feature work properly ?
-  - Will it affect in any way older code ?
- - Was it easy and clear ? 
-  - Did you knew where to change and why?
-  - Did you knew how to ensure that it worked?
-- What do you think should be the next step ?
-  - Is is ready to take in new features ?
-  - How dificult would for others to work with this code ?
+    $ git checkout origin/1-1
 
 ----
 
 B-2-0
 ======
 
-Hope you're having a good time.
+This step seems a little ahead of you, but if you must.
 
-Now it's time to check if what you did is properly working.
+Just change to the `2-0` branch by running the following command.
 
-You have now a test suite for checking if you're good to go into production. to chek if you've done a good job just run:
+    $ git checkout origin/2-0
 
-    $ rspec
-
-This test suite have pending tests for the new feature requested by the head manager. If you completed the task you can enable them by removing the `x` before the `context` at line 115. Now run again to see if you got the right code in place.
-
-Now take 15 minutes to work on this code. If you managed to finish the task, take this time to improve the code quality. If not, hurry up and finish it, the client is waiting.
-
-----
-
-Finished?
-
-Now lets have 10 minutes to evaluate the results?
-
- - Was your code really ready ?
-  - Was the old features affected by your new code ?
-  - Was the new code up to the requirements?
- - What to think about the new code ? 
-  - Are you proud of the code you left ?
-  - Is it better than the one you had before ?
-  - Is still room for improvement ?
 
 ----
 
 B-3-0
 ======
 
-The head manager is happy with the results. So much so that he heard your complaints about the code and allowed you to decide what to do next. You have 25 minutes to work on one (or several) of the following tasks:
+Are you sure you should be at this step?
 
- - Improve the code quality, so others have less trouble working on the code than you.
- - Develop new features:
-  - The Gilded Rose is a top of class facilitie, so items with zero quality should be removed from the stock. This will help to place a re-supply order and restablish the inventory.
-  - If an item appears more the 30 times in the list for more than 10 days, its quality must be decreased in half, as a sale offer to free inventory.
+Who am I to judge you, just go to the `3-0` branch using the following command.
 
+    $ git checkout origin/3-0
 
 ----
 
