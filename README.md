@@ -28,83 +28,18 @@ Simple right? You have 5 minutes to do that. So hurry up!
 B-1-1
 ======
 
-Let's check if you got the right idea. The following letter is a descriotion from the head manager of the Gilded Rose describing why they have this code. 
+Ready for the next step ?
 
-*Hi and welcome to team Gilded Rose.*
+Just change to the `1-1` branch by running the following command.
 
-*As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison.  We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date.*
-
-*We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new adventures. Your task is to add the new feature to our system so that we can begin selling a new category of items.*
-
-First an introduction to our system:
-
-  - All items have a `sell_in` value which denotes the number of days we have to
-    sell the item
-
-  - All items have a `quality` value which denotes how valuable the item is
-
-  - At the end of each day our system lowers both values for every item
-
-Pretty simple, right? Well this is where it gets interesting:
-
-  - Once the sell by date has passed, `quality` degrades twice as fast
-
-  - The `quality` of an item is never negative
-
-  - "Aged Brie" actually increases in `quality` the older it gets
-
-  - The `quality` of an item is never more than 50
-
-  - "Sulfuras", being a legendary item, never has to be sold or decreases in
-    `quality`
-
-  - "Backstage passes", like aged brie, increases in `quality` as it's `sell_in`
-    value approaches; `quality` increases by 2 when there are 10 days or less
-    and by 3 when there are 5 days or less but `quality` drops to 0 after the
-    concert
-
-
-Quite simple right? Does it match what you it meant? Hope you're not disapointed by now.
-
-After this quick explanation (hope took you less than 5 minutes) it's time to assing your task. Here is the head manager again:
-
-*We have recently signed a supplier of conjured items. This requires an update to our system:*
-
-  - "Conjured" items degrade in `quality` twice as fast as normal items
-
-*Feel free to make any changes to the `update_quality` method and add any new code as long as everything still works correctly. However, do not alter the `Item` class or `items` property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the `update_quality` method and `items` property static if you like, we'll cover for you).*
-
-*Just for clarification, an item can never have its quality increase above 50, however "Sulfuras" is a legendary item and as such its quality is 80 and it never alters.*
-
-[Source](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/)
-
-
-Now yout have 15 minutes to achieve your goal. 
-
-----
-
-Have you finished?
-
-Lets take five minutes to ask ourselves some questions.
-
- - Is it ready ?
-  - Have you finished your task ?
-  - How confident are you to deploy it ?
-  - Will the new feature work properly ?
-  - Will it affect in any way older code ?
- - Was it easy and clear ? 
-  - Did you knew where to change and why?
-  - Did you knew how to ensure that it worked?
-- What do you think should be the next step ?
-  - Is is ready to take in new features ?
-  - How dificult would for others to work with this code ?
+    $ git checkout origin/1-1
 
 ----
 
 B-2-0
 ======
 
-Ready for the next step ?
+This step seems a little ahead of you, but if you must.
 
 Just change to the `2-0` branch by running the following command.
 
