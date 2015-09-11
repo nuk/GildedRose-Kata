@@ -104,40 +104,21 @@ Lets take five minutes to ask ourselves some questions.
 B-2-0
 ======
 
-Hope you're having a good time.
+Ready for the next step ?
 
-Now it's time to check if what you did is properly working.
+Just change to the `2-0` branch by running the following command.
 
-You have now a test suite for checking if you're good to go into production. to chek if you've done a good job just run:
+    $ git checkout origin/2-0
 
-    $ rspec
-
-This test suite have pending tests for the new feature requested by the head manager. If you completed the task you can enable them by removing the `x` before the `context` at line 115. Now run again to see if you got the right code in place.
-
-Now take 15 minutes to work on this code. If you managed to finish the task, take this time to improve the code quality. If not, hurry up and finish it, the client is waiting.
-
-----
-
-Finished?
-
-Now lets have 10 minutes to evaluate the results?
-
- - Was your code really ready ?
-  - Was the old features affected by your new code ?
-  - Was the new code up to the requirements?
- - What to think about the new code ? 
-  - Are you proud of the code you left ?
-  - Is it better than the one you had before ?
-  - Is still room for improvement ?
 
 ----
 
 B-3-0
 ======
 
-Ready for the next step ?
+Are you sure you should be at this step?
 
-Just change to the `3-0` branch by running the following command.
+Who am I to judge you, just go to the `3-0` branch using the following command.
 
     $ git checkout origin/3-0
 
