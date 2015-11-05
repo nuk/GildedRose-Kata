@@ -19,7 +19,7 @@ First you must clone the repository and make sure your environment is properly s
 B-1-0
 ======
 
-Start here and we'll go on a coding journey toguether.
+Start here and we'll go on a coding journey together.
 
 Just change to the `1-0` branch by running the following command.
 
