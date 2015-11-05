@@ -19,7 +19,7 @@ First you must clone the repository and make sure your environment is properly s
 B-1-0
 ======
 
-Your Task, for now is to read this code and try to understand what if wants to accomplish.
+Your Task, for now is to read this code and try to understand what it wants to accomplish.
 
 Simple right? You have 5 minutes to do that. So hurry up!
 
