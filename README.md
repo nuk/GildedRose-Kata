@@ -28,15 +28,15 @@ Simple right? You have 5 minutes to do that. So hurry up!
 B-1-1
 ======
 
-Let's check if you got the right idea. The following letter is a descriotion from the head manager of the Gilded Rose describing why they have this code. 
+Let's check if you got the right idea. The head manager of the Gilded Rose wrote the following letter describing why they acquired this code. 
 
 *Hi and welcome to team Gilded Rose.*
 
-*As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison.  We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date.*
+*As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison.  We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their expiration date.*
 
-*We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new adventures. Your task is to add the new feature to our system so that we can begin selling a new category of items.*
+*We have a system in place that updates the inventory information for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new [ad]ventures. Your task is to add new feature to our system so that we can begin selling a new category of items.*
 
-First an introduction to our system:
+First lets review what our system does today:
 
   - All items have a `sell_in` value which denotes the number of days we have to
     sell the item
@@ -64,11 +64,11 @@ Pretty simple, right? Well this is where it gets interesting:
     concert
 
 
-Quite simple right? Does it match what you it meant? Hope you're not disapointed by now.
+Quite simple right? Does it match what you figured out in the first part? Hope you're not disapointed by now.
 
 After this quick explanation (hope took you less than 5 minutes) it's time to assing your task. Here is the head manager again:
 
-*We have recently signed a supplier of conjured items. This requires an update to our system:*
+*We have recently signed a supplier of conjured items. This requires an update to our system as follows:*
 
   - "Conjured" items degrade in `quality` twice as fast as normal items
 
@@ -79,7 +79,7 @@ After this quick explanation (hope took you less than 5 minutes) it's time to as
 [Source](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/)
 
 
-Now yout have 15 minutes to achieve your goal. 
+Now yout have 15 minutes to achieve your goal.
 
 ----
 
